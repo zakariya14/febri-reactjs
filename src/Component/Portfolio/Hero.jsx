@@ -5,7 +5,7 @@ import avatar from "./assets/avatar.png";
 const Hero = () => {
   return (
     <div className="banner text-center">
-      <img src={avatar} className="rounded-circle shadow-sm" style={{ width: "200px" }} />
+      <image src={avatar} className="rounded-circle shadow-sm" style={{ width: "200px" }} />
       <h1 className="display-6 mt-5">
         Zakariya <span className="feb">Febriansah</span>
       </h1>
