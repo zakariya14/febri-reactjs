@@ -1,5 +1,5 @@
 import React from "react";
-import BootstrapComp from "./Component/Class/BootstrapComp";
+import BootstrapComp from "./Component/Class/BootstrapComp.jsx";
 // import Parent from "./Component/Class/Parent";
 // import logo from "./logo.svg";
 // import "./App.css";
