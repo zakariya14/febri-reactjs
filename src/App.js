@@ -1,17 +1,19 @@
 import React from "react";
-import BootstrapComp from "./Component/Class/BootstrapComp.jsx";
+import "./App.css";
+import Navigation from "./Component/Portfolio/Navigation";
+import MainContent from "./Component/Portfolio/MainContent";
+// import Home from "./Component/Functional/portfolio/Home";
 // import Parent from "./Component/Class/Parent";
 // import logo from "./logo.svg";
-// import "./App.css";
 // import Home from "./Component/Functional/Home";
-// import Beranda from "./Component/Class/Beranda";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <BootstrapComp />
+    <div>
+      <Navigation />
+      <MainContent />
     </div>
   );
-}
+};
 
 export default App;
